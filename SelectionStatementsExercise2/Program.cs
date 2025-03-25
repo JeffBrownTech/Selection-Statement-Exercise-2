@@ -7,25 +7,25 @@
             Console.WriteLine("What is your favorite school subject?");
             string favoriteSubject = Console.ReadLine();
 
-            switch (favoriteSubject)
+            switch (favoriteSubject.ToLower())
             {
-                case "Math":
+                case "math":
                     Console.WriteLine("All those numbers make my head hurt!");
                     break;
                 
-                case "Science":
+                case "science":
                     Console.WriteLine("Mitochondria is powerhouse of cell.");
                     break;
 
-                case "History":
+                case "history":
                     Console.WriteLine("May you live in interesting times!");
                     break;
 
-                case "English":
+                case "english":
                     Console.WriteLine("To be or not to be....what was the question?");
                     break;
 
-                case "Band":
+                case "band":
                     Console.WriteLine("🎺 Choreography and Merriment!");
                     break;
 
